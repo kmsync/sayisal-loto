@@ -36,7 +36,7 @@ public class SayisalLoto_v1 {
 
         sayi4 = rnd.nextInt(49)+1;
         while (sayi4==sayi1 || sayi4==sayi2 || sayi4==sayi3) {
-            sayi4 = rnd.nextInt(49)+1;
+            sayi4 = rnd.nextInt(49) + 1;
         }
 
         sayi5 = rnd.nextInt(49)+1;
