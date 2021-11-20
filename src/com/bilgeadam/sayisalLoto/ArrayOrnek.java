@@ -19,6 +19,7 @@ public class ArrayOrnek {
         // sayilar[6]=500;
 
         // Array yazdıralım.
+        // i++ => i = i + 1 demektir.
         for (int i = 0; i < 6; i++) {
             System.out.println(sayilar[i]);
         }
