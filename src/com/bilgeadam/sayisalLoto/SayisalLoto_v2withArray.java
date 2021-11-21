@@ -7,6 +7,7 @@ public class SayisalLoto_v2withArray {
 
     // statik değişkene, obje oluşturmadan
     // class_adı.değişken diye erişebiliyoruz.
+    // Final eklendiği zaman değişkene atanan değer ilerleyen satırlarda değiştirilemez.
 
     private static final int MAX_SAYI = 90;
     private static final int KAC_SAYI = 6;
