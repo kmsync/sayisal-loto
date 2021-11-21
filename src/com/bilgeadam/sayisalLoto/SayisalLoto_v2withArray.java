@@ -37,18 +37,18 @@ public class SayisalLoto_v2withArray {
             return false;
     }
 
-    public void testArraydeVarmi() {
-        int sayilar[] = {13, 45, 67, -4, 41, 70};
-
-        int sayi = 67;
-
-        boolean sonuc = arraydeVarmi(sayilar, sayi);
-
-        if (sonuc == true)
-            System.out.println("Array'de var!");
-        else
-            System.out.println("Array'de yok!");
-    }
+//    public void testArraydeVarmi() {
+//        int sayilar[] = {13, 45, 67, -4, 41, 70};
+//
+//        int sayi = 67;
+//
+//        boolean sonuc = arraydeVarmi(sayilar, sayi);
+//
+//        if (sonuc == true)
+//            System.out.println("Array'de var!");
+//        else
+//            System.out.println("Array'de yok!");
+//    }
 
     public static void main(String[] args) {
 
@@ -56,15 +56,9 @@ public class SayisalLoto_v2withArray {
         // 90 sayıdan 6 tane seçeceğiz.
         // https://www.millipiyangoonline.com/sayisal-loto/nasil-oynanir
 
-        //Sayıları tutacağımız bir Array tanımlıyoruz.
-        //int sayilar[] = new int[KAC_SAYI];
-
-        // Döngüyle Array'e rastgele sayıları atayalım.
-        //for (int i = 0; i < sayilar.length; i++) {
-
         SayisalLoto_v2withArray loto = new SayisalLoto_v2withArray();
 
-        //loto.testArraydeVarmi();
+//        loto.testArraydeVarmi();
 
         // Sayıları tutacağımız bir Array tanımlayalım.
         int sayilar[] = new int[KAC_SAYI];
@@ -98,6 +92,5 @@ public class SayisalLoto_v2withArray {
             else
                 System.out.print(sayilar[i] + "-");
         }
-
     }
 }
